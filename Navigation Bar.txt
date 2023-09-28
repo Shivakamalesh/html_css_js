@@ -1,0 +1,43 @@
+Navigation Bar
+
+HTML Code
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navigation bar</title>
+    <link rel="stylesheet" href="nav.css">
+</head>
+<body>
+    <ul>
+        <li><a href="Home">Home</a></li>
+        <li><a href="About">About</a></li>
+        <li><a href="Profile">Profile</a></li>
+    </ul>
+</body>
+</html>
+
+
+CSS Code
+
+body{
+    background-color: black;
+}
+
+ul{
+    background-color: white;
+    height: 55px;
+
+    padding-top: 25px;
+}
+li{
+    display: inline;
+    text-decoration: none;
+    font-size: large;
+    padding-left: 25px;
+}
+a{
+    text-decoration: none;
+}
